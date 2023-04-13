@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список чатов и лента переписки</title>
+    <link href="styles/chat.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <div class="header">
+                <p style="margin-right: 20px">Профиль</p>
+            </div>
+<!--            search   -->
+            <div class="search_chat">
+                <div>
+                    <input type="text" placeholder="Поиск">
+                </div>
+            </div>
+<!--            list chat   -->
+            <div class="chatlist">
+                <div class="block active">
+                    <div class="imgbx">
+                        <img src="static/user.jpg" alt="userPhoto" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Viktor Obedkov</h4>
+                            <p class="time">10:56</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Привет! Как дела? Чем занимаешься? </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block unread">
+                    <div class="imgbx">
+                        <img src="static/user.jpg" alt="userPhoto" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Dmitry Ponomarev</h4>
+                            <p class="time">22:56</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Я сегодня не смогу прийти. </p>
+                            <b>1</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="block unread">
+                    <div class="imgbx">
+                        <img src="static/user.jpg" alt="userPhoto" class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Vitalik Vyazov</h4>
+                            <p class="time">Вчера</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Думаю, стоит решить сегодня </p>
+                            <b>1</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightSide">
+            <div class="header_1">
+                <div class="imgText">
+                    <div class="userImg">
+                        <img src="static/user.jpg" alt="userImg" class="cover">
+                    </div>
+                    <h4>Viktor Obedkov<br><span>Онлайн</span></h4>
+                </div>
+            </div>
+
+<!--            chatbox-->
+            <div class="chatBox">
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+                <div class="message my_message">
+                    <p>Hi <br><span>12:15</span></p>
+                </div>
+                <div class="message frnd_message">
+                    <p>Hello <br><span>12:15</span></p>
+                </div>
+
+            </div>
+<!--        chat input-->
+
+            <div class="chatBox_input">
+                <ion-icon name="happy-outline"></ion-icon>
+                <ion-icon name="attach-outline"></ion-icon>
+                <input type="text" placeholder="Текст">
+                <ion-icon name="send-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "></script>
+</body>
+</html>
